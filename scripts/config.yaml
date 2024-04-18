@@ -1,0 +1,24 @@
+debug_mode: False
+use_log: True
+robot_id: 0
+
+role_info:
+    is_client: True
+    id: 'vehicle-01'
+
+network_info:
+    ip: '127.0.0.1'
+
+    target_info:
+        ip: '192.168.1.123'
+
+message_info:
+    nav:
+        is_tcp: True
+        port: 10000
+    lidar:
+        is_tcp: True
+        port: 11000
+    traj:
+        is_tcp: True
+        port: 12000
