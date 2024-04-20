@@ -5,9 +5,9 @@ from os.path import join, dirname
 sys.path.insert(0, join(dirname(__file__), '../'))
 
 import simulator
-simulator.load('/home/wang/CARLA_0.9.9.4')
+simulator.load('~/CARLA_0.9.9.4')
 import carla
-sys.path.append('/home/wang/CARLA_0.9.9.4//PythonAPI/carla')
+sys.path.append('~/CARLA_0.9.9.4//PythonAPI/carla')
 from agents.navigation.basic_agent import BasicAgent
 
 from simulator import config, set_weather, add_vehicle
